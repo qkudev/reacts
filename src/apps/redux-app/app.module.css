@@ -1,0 +1,20 @@
+.root {
+  padding: 1.5em 2em;
+}
+
+.nav {
+  border-bottom: 1px solid #dedede;
+  background: #242424;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  justify-content: flex-start;
+  padding: 24px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px;
+}
+
+.nav > a.active {
+  color: #a1a1a1;
+}

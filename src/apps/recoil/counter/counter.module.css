@@ -1,0 +1,10 @@
+.table {
+  padding: 16px 0;
+}
+
+.table > tr > td,
+.table > tr > th {
+  border: 1px solid #ededed;
+  padding: 8px 16px;
+  text-align: left;
+}

@@ -1,0 +1,23 @@
+.todos {
+  padding: 1em 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+  gap: 16px;
+}
+
+.todos > li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-between;
+  padding: 16px;
+  list-style-type: none;
+  border: 1px solid #cacaca;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
